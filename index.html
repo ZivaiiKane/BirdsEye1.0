@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <nav class="w-full h-16 bg-[#1f364d] flex justify-center text-white">
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <lottie-player
+        src="https://assets7.lottiefiles.com/packages/lf20_9xcses0f/eye.json"
+        background="transparent"
+        speed="0.8"
+        style="width: 48px; height: 48px"
+        hover
+        autoplay
+        class="mt-[8px]"
+      ></lottie-player>
+      <h1 class="font-semibold text-lg mt-4 ml-2">BirdsEye</h1>
+    </nav>
+
+    <div class="w-full h-[28rem]" id="map"></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
